@@ -1,0 +1,45 @@
+#Menu {
+    text-align: right;
+    background-color: rgb(5, 137, 245);
+}
+
+#Menu ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 17px;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: bold;
+    margin: 15px;
+    color: white;
+}
+
+#usertable {
+    border: 1px solid black;
+    padding-top: 10px;
+    margin-top: 30px;
+    border-bottom-width: thick;
+    border-top-width: thick;
+    border-left-width: thick;
+    border-right-width: thick;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    /* box-shadow: 5px 5px 10px 5px black; */
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: white;
+    color: rgb(5, 137, 245);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#UserLogin a {
+    visibility: visible;
+    display: block;
+}
